@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .head1{
+    border:2px solid black;
+    margin:5px;
+  }
+  
+  .container {
+    margin:10px;
+    padding: 20px;
+    background-color: #3d3c3c;
+    color: #fff;
+    text-align: center;
+  }
+
+  .content h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .nav li {
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    background-color: #fff;
+    text-align: center;
+    background-color: #333;
+    margin:10px;
+    margin-top: -10px;
+  }
+  .content{
+    color:white
+  }
+  .head2{
+    border:2px solid black;
+    background-color: #f4f4f4;
+    margin:5px;
+  }
+  .post {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:10px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.card video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+.h1{
+  border: 2px solid black;
+  margin:5px;
+}
+.h{
+  border: 10px white;
+  margin:5px;
+}
+.head3{
+  border: 10px #ddd;
+  margin:5px;
+}
+.Aboutme{
+  border:5px #ddd;
+  background-color: white;
+  margin:10px;
+  padding:5px;
+}
+.head4{
+  border:2px solid black;
+  margin:5px;
+}
+.Contact{
+  background-color: #ddd;
+  margin:10px;
+  padding:5px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  height:25px;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  height:25px;
+}
+input[type="message"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #333;
+  color:white
+}
+hr{
+  margin:10px;
+}
+.copyright{
+  background-color: #333;
+  margin:10px;
+  height:30px;
+}
+.copy{
+  text-align:center;
+  color:white
+  
+}
